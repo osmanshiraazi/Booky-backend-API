@@ -3,9 +3,9 @@ const mongoose = require("mongoose");
 
 const PublicationSchema = mongoose.Schema(
   {
-    id: 1,
-    name: "writex",
-    books: ["12345Book"]
+    id: Number,
+    name: String,
+    books: String
   }
 );
 
